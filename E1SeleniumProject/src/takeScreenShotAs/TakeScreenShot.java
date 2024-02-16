@@ -16,7 +16,7 @@ public class TakeScreenShot {
 		// TODO Auto-generated method stub
 		//WebDriver abc = new EdgeDriver();
 		WebDriver abc = new ChromeDriver();
-		//abc.manage().window().maximize();
+		abc.manage().window().maximize();
 		//abc.manage().window().fullscreen();
 		abc.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		abc.get("https://trello.com/b/dpjMIatR/cm");
